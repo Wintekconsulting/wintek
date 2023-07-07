@@ -1,16 +1,6 @@
 @font-face {
-    font-family: "Everett-bold";
-    src: url("../../styles/font/TWKEverett-Bold.otf");
-    font-weight:800;
-}
-@font-face {
     font-family: "Everett-medium";
     src: url("../../styles/font/TWKEverett-Medium.otf");
-    font-weight:800;
-}
-@font-face {
-    font-family: "Everett-regular";
-    src: url("../../styles/font/TWKEverett-Regular.otf");
     font-weight:800;
 }
 .container{
