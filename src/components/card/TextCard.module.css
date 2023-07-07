@@ -2,18 +2,21 @@
     font-family: "Everett-bold";
     src: url("../../styles/font/TWKEverett-Bold.otf");
     font-weight:800;
-  }
-  @font-face {
+}
+@font-face {
     font-family: "Everett-medium";
     src: url("../../styles/font/TWKEverett-Medium.otf");
     font-weight:800;
-  }
-  @font-face {
+}
+@font-face {
     font-family: "Everett-regular";
     src: url("../../styles/font/TWKEverett-Regular.otf");
     font-weight:800;
-  }
-  .cont-main-section{
+}
+.page{
+  background: #ffffff;
+}
+.container{
     font-family: "Everett-medium";
     display:flex;
     flex-direction:column;
@@ -22,23 +25,25 @@
     align-items: center;
     align-content: stretch;
     margin: 0 2rem;
-  }
-  .txt-title-section{
-    color: var(--strong-purple);
-    font-size: 4rem;
-    font-family: Everett-bold;
-  }
-  .cont-main-section-one{
-    background-color:var(--background-light);
+}
+.containerSection{
+    background-color:#d0fcf3;
     margin: 2rem 0;
-  }
-  .txt-title{
-    color: var(--strong-purple);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.title{
+    color: #320093;
     font-size: 3.4rem;
     font-family: Everett-medium;
+    display:flex;
+    justify-content: center;
   }
-  .txt-text{
-    color: var(--strong-purple);
+.text{
+    color:  #320093;
     font-size: 2rem;
     font-family: Everett-regular;
-  }
+    display:flex;
+    justify-content: center;
+}

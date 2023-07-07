@@ -18,12 +18,15 @@
     margin: 2rem;
 }
 .button{
-    width: 40vw;
+    width: 40%;
     color:#ffffff;
     font-size: 2rem;;
     background-color: #320093;
     border-color: #320093;
     border-radius: 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
    
 @media only screen and (max-width : 900px) {
@@ -37,6 +40,7 @@
     .button{
       font-size: 1rem;;
      }
+
 
     }
     

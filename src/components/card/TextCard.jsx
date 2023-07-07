@@ -1,17 +1,16 @@
 import { Card } from "react-bootstrap";
-import './TextCard.css';
+import styles from './TextCard.module.css';
 
 
-function TextCard({title, text }) {
+function TextCard({title, text}) {
   return (
     <div>
-        <div className="cont-main-section">
+        <div className={styles.container}>
 
-        <Card className="cont-main-section-one">
-        <Card.Body className="cont-main-section-one">
-        
-            <p className="txt-title">{title}</p>
-            <p className="txt-text">{text}</p> 
+        <Card className={styles.containerSection}>
+        <Card.Body >
+            <p className={styles.title}>{title}</p>
+            <p className={styles.text}>{text}</p>
         </Card.Body>
         </Card>
     

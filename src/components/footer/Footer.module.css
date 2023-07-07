@@ -1,25 +1,52 @@
-.cont-footer{
+@font-face {
+    font-family: "Everett-bold";
+    src: url("../../styles/font/TWKEverett-Bold.otf");
+    font-weight:800;
+}
+@font-face {
+    font-family: "Everett-medium";
+    src: url("../../styles/font/TWKEverett-Medium.otf");
+    font-weight:800;
+}
+@font-face {
+    font-family: "Everett-regular";
+    src: url("../../styles/font/TWKEverett-Regular.otf");
+    font-weight:800;
+}
+.container{
     display:flex;
     justify-content: space-between;
-    width: 95vw;
     margin: 1rem;
 }
-.cont-logos {
-    display: flex;
+.containerContacto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Everett-medium"
 }
-.txt-footer-heading {
-    color: var(--strong-purple);
+.adress{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Everett-medium"
+}
+.textHeading {
+    color: #320093;
     font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    font-family: "Everett-medium";
 }
-.txt-footer-line {
-    color: var(--light-purple);
+.textLine{
+    color: #6700ff;
     font-size: 0.8rem;
     margin:0px;
+    font-family: "Everett-medium";
 }
-.cont-address{
-    width:20%;
+.logosSocial {
+    display: flex;
 }
-.navbar-icon-footer{
-    width: 2rem;
-    margin:1rem
+.iconSocial{    
+    margin:0.8rem
 }
