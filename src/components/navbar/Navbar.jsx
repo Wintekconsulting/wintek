@@ -12,7 +12,7 @@ function NavWintek() {
     <>
     <div className={styles.container}>
       
-      <Link className={styles.brand} href="/"> 
+      <Link className={styles.brand} href="/">
           <Image  src={Brand} alt="logo empresa" width={110} height={40} />
       </Link>
 

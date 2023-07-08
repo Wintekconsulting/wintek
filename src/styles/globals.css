@@ -22,11 +22,11 @@
 }
 
 :root {
-  --primary-color: #6cf4da;
-  --secondary-color: #320093;
-  --third-color: #6700ff;
+  --back-color-primary: #6cf4da;
+  --back-color-secondary:#d0fcf3;
+  --text-color-primary: #320093;
+  --text-color-secondary: #6700ff;
   --font-bold: 700;
-
 }
 
 * {
