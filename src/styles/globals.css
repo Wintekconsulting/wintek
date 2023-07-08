@@ -23,7 +23,7 @@
 
 :root {
   --back-color-primary: #6cf4da;
-  --back-color-secondary:#d0fcf3;
+  --back-color-secondary:#cccccc;
   --text-color-primary: #320093;
   --text-color-secondary: #6700ff;
   --font-bold: 700;
@@ -36,10 +36,9 @@
 }
 
 body{
-  font-family: Everett;
+  font-family: "Everett";
   font-weight:400;
 }
-
 .container {
   display:flex;
   flex-direction:column;
@@ -47,4 +46,16 @@ body{
   justify-content: flex-start;
   align-items: center;
   align-content: stretch;
+}
+.title{
+  color: var(--text-color-primary);
+  font-size: 3.4rem;
+  font-weight: 400;
+  text-align: center;
+}
+.text{
+  color: var(--text-color-secondary);
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
 }

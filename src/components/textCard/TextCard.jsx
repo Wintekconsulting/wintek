@@ -6,8 +6,8 @@ function TextCard({title, text}) {
     <div className="container">
         <Card className={`${styles.containerSection} bootstrap-class`}>
         <Card.Body >
-            <p className={styles.title}>{title}</p>
-            <p className={styles.text}>{text}</p>
+            <p className="title">{title}</p>
+            <p className="text">{text}</p>
         </Card.Body>
         </Card>
     </div>

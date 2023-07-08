@@ -1,6 +1,6 @@
 import NavWintek from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
-import BlogCard from '../../components/card/BlogCard';
+import BlogCard from '../../components/blogCard/BlogCard';
 import BlogCards from '../../config/blogCards.json';
 import styles from './Compartimos.module.css';
 

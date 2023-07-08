@@ -1,31 +1,6 @@
-@font-face {
-    font-family: "Everett-bold";
-    src: url("../../styles/font/TWKEverett-Bold.otf");
-    font-weight:800;
-}
-@font-face {
-    font-family: "Everett-medium";
-    src: url("../../styles/font/TWKEverett-Medium.otf");
-    font-weight:800;
-}
-@font-face {
-    font-family: "Everett-regular";
-    src: url("../../styles/font/TWKEverett-Regular.otf");
-    font-weight:800;
-}
-.container{
-    font-family: "Everett-medium";
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    margin: 0 2rem;
-}
 .containerSection{
-    background-color:#d0fcf3;
+    background-color: var(--back-color-secondary);
     margin: 2rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
 }
 .cardBody{
     display:flex;
@@ -33,19 +8,6 @@
     align-items: center;
     align-content:center;
 }
-.title{
-    color: #320093;
-    font-size: 3.4rem;
-    font-family: Everett-medium;
-    display:flex;
-    justify-content: center;
-  }
-.text{
-    color:  #320093;
-    font-size: 2rem;
-    font-family: Everett-regular;
-}
-
 .iconAdn{
     width: 8rem;
     height: 8rem;

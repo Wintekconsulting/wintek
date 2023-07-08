@@ -1,15 +1,15 @@
 import Footer from "../../components/footer/Footer";
 import NavWintek from "../../components/navbar/Navbar";
-import TextCard from "../../components/card/TextCard";
+import TextCard from "../../components/textCard/TextCard";
 import Textos from '../../config/textosBienvenidos.json';
-import styles from '../../components/card/TextCard.module.css';
+import styles from "../../components/textCard/TextCard.module.css";
 
 function Bienvenidos() {
   return (
-    <div className={styles.page}>
+    <div>
         <NavWintek/>
         <div className={styles.container}>
-        <p className={styles.title}>BIENVENIDOS</p>
+        <p className="title">BIENVENIDOS</p>
         {
         Textos.map((texts, index) => <TextCard key={index} {...texts} />)
         }
