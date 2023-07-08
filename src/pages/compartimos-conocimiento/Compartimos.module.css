@@ -1,31 +1,7 @@
-@font-face {
-    font-family: "Everett-bold";
-    src: url("../../styles/font/TWKEverett-Bold.otf");
-    font-weight:800;
-}
-@font-face {
-    font-family: "Everett-medium";
-    src: url("../../styles/font/TWKEverett-Medium.otf");
-    font-weight:800;
-}
-@font-face {
-    font-family: "Everett-regular";
-    src: url("../../styles/font/TWKEverett-Regular.otf");
-    font-weight:800;
-}
-.container{
-    font-family: "Everett-medium";
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justyfy-content: center;
-    margin: 0 2rem;
-}
 .containerSection{
-    background-color:#d0fcf3;
-    margin: 2rem 0;
+    background-color:var(--back-color-secondary);
+    padding: 2rem;
     display: flex;
-    flex-direction: column;
     justify-content:center;
 }
 .cardBody{
