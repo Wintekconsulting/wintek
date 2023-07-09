@@ -1,7 +1,8 @@
 .containerSection{
-    background-color: var(--back-color-secondary);
     margin: 2rem 0;
     display: flex;
+    border-color: var(--strongPurpleW);
+    border-width:0.2rem;
     flex-direction: column;
     justify-content:center;
 }

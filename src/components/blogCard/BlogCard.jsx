@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import style from './BlogCard.module.css';
 
 function BlogCard({ image, title, date, linkPage, group, author }) {
   return (
-      <Card style={{ width: '18rem' }}>
+      <Card style={{ width: '20rem'}} className={style.cardStyle}>
         <Image variant="top" src={image} width={100} height={100} alt="image from blog"/>
         <Card.Body>
           <Card.Title>{title}</Card.Title>

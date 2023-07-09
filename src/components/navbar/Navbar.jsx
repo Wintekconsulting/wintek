@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 import Link from 'next/link';
 import Image from 'next/image';
 import menuButton from '../../../public/images/elipse-menu.png';
-import Brand from '../../../public/images/wintek-logo-last-modified.png';
+import Brand from '../../../public/images/logo0907-modified.png';
 
 
 function NavWintek() {
@@ -13,7 +13,7 @@ function NavWintek() {
     <div className={styles.container}>
       
       <Link className={styles.brand} href="/">
-          <Image  src={Brand} alt="logo empresa" width={110} height={40} />
+          <Image  src={Brand} alt="logo empresa" width={220} height={60} />
       </Link>
 
       <div className={styles.options}>

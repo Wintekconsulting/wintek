@@ -1,7 +1,7 @@
 import Footer from "../../components/footer/Footer";
 import NavWintek from "../../components/navbar/Navbar";
 import { Card } from "react-bootstrap";
-import secuencia from '../../../public/images/secuencia-wintek-2.png';
+import secuencia from '../../../public/images/secuenciaPurple.png';
 import imgSocios from '../../../public/images/Julio&Veronica (16 of 62).jpg';
 import Image from 'next/image'
 import styles from './adn.module.css'

@@ -1,14 +1,13 @@
 .containerSection{
-    background-color:var(--back-color-secondary);
-    padding: 2rem;
+    width: 100%;
     display: flex;
-    justify-content:center;
-}
-.cardBody{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    align-content:center;
+    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+    border-color: var(--strongPurpleW);
+    border-width:0.2rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
 }
 .iconSection{
     width: 10rem;

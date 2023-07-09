@@ -11,7 +11,7 @@ function Compartimos() {
     <div>
         <NavWintek/>
         <p  className="title">COMPARTIMOS CONOCIMIENTO</p>
-       <Container fluid="md" className={styles.containerSection}>
+       <Container className={styles.containerSection}>
        <Row>
       {
          BlogCards.map((blogcard, index) => <BlogCard key={index} {...blogcard}/>)
@@ -19,7 +19,6 @@ function Compartimos() {
        </Row>
        </Container>
        <Footer/>
-
     </div>
   )
 }
