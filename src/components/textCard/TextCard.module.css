@@ -1,8 +1,25 @@
 .containerSection{
-    margin: 2rem 0;
+    margin: 1.4rem 0;
     display: flex;
     border-color: var(--strongPurpleW);
     border-width:0.2rem;
     flex-direction: column;
     justify-content:center;
+}
+
+@media only screen and (max-width : 900px) {
+    .title{
+      font-size: 1.6rem;
+    }
+    .text{
+      font-size: 1.2rem;
+    }
+    .image {
+      width: 320px;
+      height: 220px;
+  }
+    .button{
+      font-size: 1.2rem;;
+     }
+
 }

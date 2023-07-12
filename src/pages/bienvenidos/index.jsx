@@ -9,7 +9,7 @@ function Bienvenidos() {
     <div>
         <NavWintek/>
         <div className={styles.container}>
-        <p className="title">BIENVENIDOS</p>
+        <p className={`title ${styles.title}`}>BIENVENIDOS</p>
         {
         Textos.map((texts, index) => <TextCard key={index} {...texts} />)
         }

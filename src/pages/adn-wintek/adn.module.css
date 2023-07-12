@@ -18,3 +18,20 @@
     width: 30rem;
     height: 45rem;
 }
+@media only screen and (max-width : 900px) {
+    .title{
+      font-size: 2rem;
+    }
+    .text{
+        font-size: 1.2rem;
+    }
+    .iconAdn{
+        width: 4rem;
+        height: 4rem;
+        padding:0.6rem;
+    }
+    .imgSemblanzas{
+        width: 280px;
+        height: 420px;
+    }
+}

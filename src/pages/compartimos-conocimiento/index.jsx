@@ -10,7 +10,7 @@ function Compartimos() {
   return (
     <div>
         <NavWintek/>
-        <p  className="title">COMPARTIMOS CONOCIMIENTO</p>
+        <p className={`title ${styles.title}`}>COMPARTIMOS CONOCIMIENTO</p>
        <Container className={styles.containerSection}>
        <Row>
       {

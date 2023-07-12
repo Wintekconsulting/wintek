@@ -14,20 +14,20 @@ function transformamos() {
     <div>
         <NavWintek/>
         <div className="container">
-        <p className="title">TRANSFORMAMOS TU EMPRESA</p>
+        <p className={`title ${styles.title}`}>TRANSFORMAMOS TU EMPRESA</p>
         <Card  className={styles.containerSection}>
         <Card.Body className={styles.cardBody}>
-            <p className="text"> Conoce los diferentes servicios que tenemos para potencializar los recursos de tu compañía. Cada uno está diseñado para mejorar el performance de todas las direcciones que integran la empresa. </p>
+            <p className={`text ${styles.text}`}> Conoce los diferentes servicios que tenemos para potencializar los recursos de tu compañía. Cada uno está diseñado para mejorar el performance de todas las direcciones que integran la empresa. </p>
             <Image src={asesoria} className={styles.iconSection} width={200} height={200} alt="imagen icono"/>
-            <p className="text">Asesoría</p>
+            <p className={`text ${styles.text}`}>Asesoría</p>
             <Image src={implementa} className={styles.iconSection} width={200} height={200} alt="imagen icono"/>
-            <p className="text">Implementación</p>
+            <p className={`text ${styles.text}`}>Implementación</p>
             <Image src={capacita} className={styles.iconSection}  width={200} height={200} alt="imagen icono"/>
-            <p className="text">Capacitación</p>
+            <p className={`text ${styles.text}`}>Capacitación</p>
             <Image src={actualiza} className={styles.iconSection}  width={200} height={200} alt="imagen icono"/>
-            <p className="text">Actualización</p>
+            <p className={`text ${styles.text}`}>Actualización</p>
             <Image src={estrategia} className={styles.iconSection}  width={200} height={200} alt="imagen icono"/>
-            <p className="text">Estrategia 360º</p>
+            <p className={`text ${styles.text}`}>Estrategia 360º</p>
         </Card.Body>
         </Card>
 
