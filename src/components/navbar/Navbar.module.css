@@ -4,11 +4,13 @@
     margin:0.8rem;
 }
 .navbarLogo{
-    width: 100px; 
-    height: 30px; 
+    width: 00px; 
+    height: 60px; 
 }
 .button{
-    width: 50px; 
+    width: 100px; 
+    height: 80px;
+    margin: 1rem;
 }
 .options{
     display: flex;
@@ -20,6 +22,13 @@
         display: flex;
         justify-content: space-between;
         margin:0.8rem;
+    }
+    .navbarLogo{
+        width: 100px; 
+        height: 30px; 
+    }
+    .button{
+        width: 50px; 
     }
     .brand{
         display: flex
