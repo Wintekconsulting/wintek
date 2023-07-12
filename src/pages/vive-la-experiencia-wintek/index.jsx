@@ -2,8 +2,6 @@ import Footer from '../../components/footer/Footer';
 import NavWintek from '../../components/navbar/Navbar';
 import { Card, Form } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import styles from './Vive.module.css';
 import { InputGroup } from 'react-bootstrap';
 

@@ -7,9 +7,9 @@ function WintekSection({ title, imageSection, buttonText, linkPage, fewWords}) {
     <>
       <div className="container">
       <div className={styles.containerSection}>
-          <p className="title">{title}</p>
+          <p className={`title ${styles.title}`}>{title}</p>
           <Image className={styles.image} src={imageSection} width={800} height={400} alt='image for the section'/>
-          <p className="text">{fewWords}</p>
+          <p className={`text ${styles.text}`}>{fewWords}</p>
           <Link className={styles.button} href={linkPage}>
           {buttonText}
           </Link>

@@ -3,11 +3,12 @@
     justify-content: space-between;
     margin:0.8rem;
 }
-.brand{
-    display: flex
+.navbarLogo{
+    width: 100px; 
+    height: 30px; 
 }
 .button{
-    margin: 0 0.8rem;
+    width: 50px; 
 }
 .options{
     display: flex;
@@ -15,5 +16,15 @@
 }
   
 @media only screen and (max-width : 900px) {
-
+    .container{
+        display: flex;
+        justify-content: space-between;
+        margin:0.8rem;
+    }
+    .brand{
+        display: flex
+    }
+    .button{
+        margin: 0 0.8rem;
+    }
 }
