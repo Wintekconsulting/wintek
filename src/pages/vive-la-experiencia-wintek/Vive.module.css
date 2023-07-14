@@ -18,11 +18,27 @@
     font-family: Everett-bold;
 }
 .button{
-    width: 20%;
     color:#ffffff;
     font-size: 1.3rem;;
     background-color: var(--strongPurpleW);
     border-color: var(--strongPurpleW);
     border-radius: 30px;
     text-decoration: none;
+}
+
+@media only screen and (max-width : 900px) {
+    .title{
+      font-size: 2rem;
+    }
+    .text{
+      font-size: 1.2rem;
+    }
+    .containerTextLabel{
+        display:flex;
+        width: 100%;
+    }
+    .textLabelStyle{
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }
