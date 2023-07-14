@@ -11,10 +11,10 @@ function Footer() {
     <div className={styles.container}>
 
       <div className={styles.adress}>
-        <p className={styles.textHeading}>Wintek Consulting Group</p>
-        <p className={styles.textLine}>Provenza 310</p>
-        <p className={styles.textLine}>Barcelona, España</p>
-        <p className={styles.textLine}>08037</p>
+        <p className={`title ${styles.textHeading}`}>Wintek Consulting Group</p>
+        <p className={`text ${styles.textLine}`}>Provenza 310</p>
+        <p className={`text ${styles.textLine}`}>Barcelona, España</p>
+        <p className={`text ${styles.textLine}`}>08037</p>
       </div>
 
       <div className={styles.containerContacto}>
