@@ -31,11 +31,11 @@
   --font-regular: 400;
   --font-light: 300;
 
-  --greenOne:#88f2a2;
-  --greenTwo: #74917c;
-  --greenThree: #9df763;
-  --lightPurpleW:#d64fe0;
-  --strongPurpleW:#753bc4;
+  --greenOne:#97ffb7;
+  --greenTwo: #6fc4da;
+ 
+  --lightPurpleW:#b76ff0;
+  --strongPurpleW:#b76ff0;
 }
 
 * {

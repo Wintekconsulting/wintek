@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 import Link from 'next/link';
 import Image from 'next/image';
 import menuButton from '../../../public/images/elipse-menu.png';
-import Brand from '../../../public/images/logo0907-modified.png';
+import Brand from '../../../public/images/logoNavbar.png';
 import languageButton from '../../../public/images/wintek-language-2.png';
 
 
@@ -23,7 +23,7 @@ function NavWintek() {
       </Button>
           
       <Button className={styles.button} variant="light" >
-          <Image src={menuButton} alt="icono menu" width="auto" height="auto"/>
+          <Image className={styles.imageButton} src={menuButton} alt="icono menu" width="auto" height="auto"/>
       </Button>
       </div>
       

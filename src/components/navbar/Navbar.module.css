@@ -30,17 +30,19 @@
         margin:0.8rem;
     }
     .navbarLogo{
-        width: 150px; 
-        height: 60px; 
+        width:120px;
+        height:40px;
+    }
+    .imageButton{
+        width:50px;
+        height:50px; 
+        margin: 0;
     }
     .button{
-        width: 50px;
-        height: 50px; 
+        margin: 0;
     }
     .brand{
-        display: flex
-    }
-    .button{
-        margin: 0 0.8rem;
+        display: flex;
+        align-items: center;
     }
 }

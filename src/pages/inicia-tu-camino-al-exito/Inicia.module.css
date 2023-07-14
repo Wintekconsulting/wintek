@@ -10,7 +10,6 @@
     align-content:center;
 }
 .button{
-    width: 300%;
     color:#ffffff;
     font-size: 1.3rem;;
     background-color: var(--strongPurpleW);
@@ -21,4 +20,20 @@
 .textLabelStyle{
     width: 11rem;
     color: var(--text-color-primary);
+}
+@media only screen and (max-width : 900px) {
+    .title{
+      font-size: 2rem;
+    }
+    .text{
+      font-size: 1.2rem;
+    }
+    .containerTextLabel{
+        display:flex;
+        width: 100%;
+    }
+    .textLabelStyle{
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }

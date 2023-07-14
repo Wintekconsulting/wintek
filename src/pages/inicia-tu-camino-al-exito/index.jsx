@@ -13,15 +13,17 @@ function Inicia() {
     <div>
          <NavWintek/>
         <div className="container">
-        <p className="title">INICIA TU CAMINO EL ÉXITO</p>
+        <p className={`title ${styles.title}`}>INICIA TU CAMINO EL ÉXITO</p>
         <Card className={styles.containerSection}>
         <Card.Body className={styles.cardBody}>
-            <p className="text"> Puedes hacer la mejor transformación digital para tu empresa, ahora.</p> 
-            <p className="text"> Solo compártenos tus datos y una breve descripción de lo que necesitas para hacer despegar tu compañía. </p> 
-            <p className="text">A la brevedad nos pondremos en contacto contigo.</p> 
+            <p className={`text ${styles.text}`}> Puedes hacer la mejor transformación digital para tu empresa, ahora.</p> 
+            <p className={`text ${styles.text}`}> Solo compártenos tus datos y una breve descripción de lo que necesitas para hacer despegar tu compañía. </p> 
+            <p className={`text ${styles.text}`}>A la brevedad nos pondremos en contacto contigo.</p> 
 
             <InputGroup className="mb-3">
+            <div className={styles.containerTextLabel}>
               <InputGroup.Text className={styles.textLabelStyle} >Nombre y apellido</InputGroup.Text>
+            </div>
               <Form.Control classname="w-50" type="text" aria-label="Nombre" />
               <Form.Control type="text" aria-label="Apellido" />
             </InputGroup>
