@@ -1,10 +1,10 @@
 .containerSection{
     margin: 1.4rem 0;
     display: flex;
-    border-color: var(--strongPurpleW);
-    border-width:0.2rem;
     flex-direction: column;
     justify-content:center;
+    border: none;
+    border-color: #ffffff;
 }
 
 @media only screen and (max-width : 900px) {

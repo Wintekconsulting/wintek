@@ -1,3 +1,4 @@
+import { getArticles } from '../../utils/services';
 import NavWintek from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 import BlogCard from '../../components/blogCard/BlogCard';
@@ -6,15 +7,16 @@ import styles from './Compartimos.module.css'
 import { Container } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 
-function Compartimos() {
+function Compartimos({ articles }) {
+  console.log(articles)
   return (
     <div>
         <NavWintek/>
-        <p className={`title ${styles.title}`}>COMPARTIMOS CONOCIMIENTO</p>
+        <p className={`title ${styles.titlePage}`}>COMPARTIMOS CONOCIMIENTO</p>
        <Container className={styles.containerSection}>
        <Row>
       {
-         BlogCards.map((blogcard, index) => <BlogCard key={index} {...blogcard}/>)
+        articles.map((article, index) => <BlogCard key={index} {...article}/>)
        }
        </Row>
        </Container>
@@ -22,5 +24,13 @@ function Compartimos() {
     </div>
   )
 }
+
+export async function getStaticProps() {
+  const articles = await getArticles();
+  return {
+    props: { articles },
+  };
+}
+
 
 export default Compartimos

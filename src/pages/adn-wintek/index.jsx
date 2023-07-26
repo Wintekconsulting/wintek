@@ -11,7 +11,7 @@ function AdnWintek() {
     <div>
         <NavWintek/>
         <div className="container">
-        <p className={`title ${styles.title}`}>ADN WINTEK</p>
+        <p className={`title ${styles.titlePage}`}>ADN WINTEK</p>
         <Card className={styles.containerSection}>
         <Card.Body className={styles.cardBody}>
             <p className={`text ${styles.text}`}> Cada eslabón y conexión en la estructura de nuestro ADN fue creado para ofrecer las mejores soluciones de transformación digital para las empresas; gracias a nuestra experiencia, capacitación constante, colaboraciones internacionales y una trayectoria de más de dos décadas de cada uno de los socios, podemos asegurar</p> 
@@ -28,7 +28,7 @@ function AdnWintek() {
         </Card.Body>
         </Card>
 
-        <p className={`title ${styles.title}`}>SEMBLANZAS</p>
+        <p className={`title ${styles.titlePage}`}>SEMBLANZAS</p>
         
         <Image className={styles.imgSemblanzas} src={imgSocios} alt="imagen socios"  width="auto" height="auto" />
         

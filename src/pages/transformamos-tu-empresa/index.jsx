@@ -14,7 +14,7 @@ function transformamos() {
     <div>
         <NavWintek/>
         <div className="container">
-        <p className={`title ${styles.title}`}>TRANSFORMAMOS TU EMPRESA</p>
+        <p className={`title ${styles.titlePage}`}>TRANSFORMAMOS TU EMPRESA</p>
         <Card  className={styles.containerSection}>
         <Card.Body className={styles.cardBody}>
             <p className={`text ${styles.text}`}> Conoce los diferentes servicios que tenemos para potencializar los recursos de tu compañía. Cada uno está diseñado para mejorar el performance de todas las direcciones que integran la empresa. </p>

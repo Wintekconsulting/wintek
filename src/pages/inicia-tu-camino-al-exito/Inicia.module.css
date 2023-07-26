@@ -1,7 +1,10 @@
+.titlePage{
+    color:var(--lightPurpleW);
+  }
+
 .containerSection{
     margin: 2rem 0;
-    border-color: var(--strongPurpleW);
-    border-width:0.2rem;
+    border-width: 0;
 }
 .cardBody{
     display:flex;
@@ -19,7 +22,8 @@
 }
 .textLabelStyle{
     width: 11rem;
-    color: var(--text-color-primary);
+    color: var(--greenOne);
+    background-color: var(--lightPurpleW);
 }
 @media only screen and (max-width : 900px) {
     .title{

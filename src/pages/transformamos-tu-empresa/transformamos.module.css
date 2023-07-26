@@ -1,7 +1,9 @@
+.titlePage{
+    color: var(--lightPurpleW);
+}
 .containerSection{
     margin: 2rem 0;
-    border-color: var(--strongPurpleW);
-    border-width:0.2rem;
+    border: none;
 }
 .cardBody{
     display:flex;
@@ -15,6 +17,9 @@
     padding:1rem;
 }
 @media only screen and (max-width : 900px) {
+    .titlePage{
+      font-size: 2rem;
+    }
     .title{
       font-size: 2rem;
     }

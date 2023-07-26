@@ -1,35 +1,18 @@
+.titlePage{
+    color:var(--lightPurpleW);
+  }
 .containerSection{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-style: solid;
-    border-color: var(--strongPurpleW);
-    border-width:0.2rem;
     padding-top: 1.6rem;
     padding-bottom: 1.6rem;
-}
-.iconSection{
-    width: 10rem;
-    height: 10rem;
-    padding:1rem;
 }
 .textLabel{
     color:  #320093;
     font-size: 1.4rem;
     font-family: Everett-bold;
-}
-.button{
-    width: 60%;
-    height: 100%;
-    color:#ffffff;
-    font-size: 1.6rem;;
-    background-color: #320093;
-    border-color: #320093;
-    border-radius: 30px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
 }
 .img-compartimos{
     width: 80rem;
@@ -37,6 +20,9 @@
     padding: 6rem;
 }
 @media only screen and (max-width : 900px) {
+    .titlePage{
+      font-size: 2rem;
+      }
     .title{
       font-size: 2rem;
     }

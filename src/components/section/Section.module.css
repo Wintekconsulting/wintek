@@ -12,10 +12,10 @@
 .button{
     width: 50%;
     line-height: 4rem;
-    color:#ffffff;
-    font-size: 2rem;
-    background-color: var(--strongPurpleW);
-    border-color: #320093;
+    color: var(--greenOne);
+    font-size: 3rem;
+    background-color: var(--lightPurpleW);
+    border-color: var(--lightPurpleW);
     border-radius: 30px;
     text-decoration: none;
     display: flex;
@@ -28,14 +28,16 @@
       font-size: 2rem;
     }
     .text{
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
     .image {
       width: 320px;
       height: 220px;
   }
     .button{
-      font-size: 1.2rem;;
+      width: 60%;
+      font-size: 1.4rem;
+      font-weight: 700;
      }
 
 }

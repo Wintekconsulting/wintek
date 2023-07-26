@@ -33,9 +33,8 @@
 
   --greenOne:#97ffb7;
   --greenTwo: #6fc4da;
- 
   --lightPurpleW:#b76ff0;
-  --strongPurpleW:#b76ff0;
+  --darkGrey: #272727;
 }
 
 * {
@@ -57,13 +56,13 @@ body{
   align-content: stretch;
 }
 .title{
-  color: var(--greenTwo);
+  color: var(--greenOne);
   font-size: 3.4rem;
   font-weight: 500;
   text-align: center;
 }
 .text{
-  color: var(--greenTwo);
+  color: var(--darkGrey);
   font-size: 2rem;
   font-weight: 400;
   text-align: center;

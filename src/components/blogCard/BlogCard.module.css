@@ -1,15 +1,15 @@
 .title{
-   color: var(--greenTwo);
+   color: var(--lightPurpleW) !important;
    font-size: 1.4rem;
    font-weight: 700;
 }
 .mediumText{
-   color: var(--greenTwo);
+   color: var(--greenOne);
    font-size: 1rem;
    font-weight: 500;
 }
 .smallText{
-   color: var(--greenTwo);
+   color: var(--darkGrey);
    font-size: 0.7rem;
    font-weight: 300;
 }
@@ -17,14 +17,13 @@
    width: 180px;
    height:40px;
    line-height: 1.8rem;
-   color:#ffffff;
-   font-size: 1rem;
-   background-color: var(--strongPurpleW);
-   border-color: #320093;
+   color: var(--greenOne);
+   font-size: 1.2rem;
+   background-color: var(--lightPurpleW);
+   border-color: var(--lightPurpleW);
    border-radius: 30px;
    display: flex;
    justify-content: center;
-   text-align: center;
    text-decoration: none;
 }
 .cardStyle{ 
