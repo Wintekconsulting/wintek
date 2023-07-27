@@ -1,0 +1,15 @@
+.mainImage{
+
+}
+.imageContainer{
+    position: relative;
+    display: inline-block;
+}
+.articleTitle{
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+}
+.textContainer{
+    margin: 1rem;
+}
