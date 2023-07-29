@@ -9,7 +9,7 @@ function BlogCard({ imageUrl, title, date, slug, categories, author }) {
         <Card.Body>
           <Card.Title className={style.title}>{title}</Card.Title>
           <Card.Text className= {style.smallText}>{date}</Card.Text>
-          <a className={style.button} href={"/compartimos-conocimiento/" + slug}>
+          <a className={style.button} href={"/compartimos-conocimiento/" + slug.current}>
             <Button className={style.button}>Leer más</Button>
           </a>
           <Card.Text className={style.mediumText}>{categories}</Card.Text>

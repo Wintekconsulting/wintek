@@ -2,7 +2,6 @@ import { getArticles } from '../../utils/services';
 import NavWintek from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 import BlogCard from '../../components/blogCard/BlogCard';
-import BlogCards from '../../config/blogCards.json';
 import styles from './Compartimos.module.css'
 import { Container } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
@@ -24,6 +23,7 @@ function Compartimos({ articles }) {
     </div>
   )
 }
+export default Compartimos
 
 export async function getStaticProps() {
   const articles = await getArticles();
@@ -31,6 +31,3 @@ export async function getStaticProps() {
     props: { articles },
   };
 }
-
-
-export default Compartimos
